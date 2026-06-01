@@ -1,0 +1,124 @@
+body{
+    background-color:#000000;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    margin:0;
+    font-family:Arial,sans-serif;
+    }
+.card{
+    background: color #16213e;
+    border-radius:20px;
+    padding:40px;
+    text-align:center;
+    width:320px;
+    box-shadow:0 10px 40px rgba(0,0,0,0.5);
+    border:1px solid #0f3460;
+}
+.photo{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    background: color #00f5a0;
+    margin:0 auto 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:50px;
+}
+.name,.course,.college{
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+    margin-bottom:8px;
+}
+.title{
+    color:#00f5a0;
+    font-size:14px;
+    margin-bottom:25px;
+}
+.divider{
+    border:none;
+    border-top:1px solid #0f3460;
+    margin:20px 0;
+}
+.skills-title{
+    color:#b5f604;
+    display: flexbox;
+    font-size:12px;
+    letter-spacing:12px;
+    margin-bottom:12px;
+}
+.skills{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    margin-bottom:25px;
+}
+.skill{
+    background-color:#0f3460;
+    color:#00f5a0;
+    padding:6px 14px;
+    font-size:13px;
+    border-radius:20px;
+    border:1px solid #00f5a0;
+}
+.buttons{
+    display:flex;
+    gap:10px;
+    justify-content:center;
+}
+.btn-email{
+    background-color:#00aeff;
+    color:black;
+    padding:10px 20px;
+    border-radius:8px;
+    text-decoration:none;
+    font-size:14px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+.btn-email:hover{
+    background-color:#000000;
+    color:#ffffff;
+    border: 1px solid;
+    border-color:white;
+}
+.btn-github{
+    background-color:#00aeff;
+    color:black;
+    padding:10px 20px;
+    border-radius:8px;
+    text-decoration:none;
+    font-size:14px;
+    font-weight:bold;
+    border:1px solid #ffffff;
+    cursor:pointer;
+    transition:0.3s;
+}
+.btn-github:hover{
+     background-color:#000000;
+    color:#ffffff;
+    border: 1px solid;
+    border-color:white;
+}
+
+.btn-linkedin{
+    background-color:#00aeff;
+    color:black;
+    padding:10px 20px;
+    border-radius:8px;
+    text-decoration:none;
+    font-size:14px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+.btn-linkedin:hover{
+     background-color:#000000;
+    color:#ffffff;
+    border: 1px solid;
+    border-color:white;
+}
